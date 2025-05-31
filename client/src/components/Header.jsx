@@ -23,11 +23,11 @@ export default function Header() {
                 <AiOutlineSearch />
             </Button>
             <div className='flex gap-2 md:order-2'>
-                <Button className='w-12 h-10 hidden sm:inline' color='gray' pill>
+                <Button className='w-12 h-10 hidden sm:inline border border-gray-300' color='white' pill>
                     <FaMoon/>
                 </Button>
                 <Link to='/sign-in'>
-                    <Button color='purple'>
+                    <Button color='purple' outline>
                         Sign In
                     </Button>
                 </Link>
