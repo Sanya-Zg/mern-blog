@@ -1,4 +1,4 @@
-import { error } from 'console';
+
 import User from '../models/user.model.js';
 import bcryptjs from 'bcryptjs';
 import { errorHandler } from '../utils/error.js';
